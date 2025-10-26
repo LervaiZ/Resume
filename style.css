@@ -81,8 +81,8 @@ h1, h2, h3, .magazine-title { font-family: 'Playfair Display', Georgia, 'Times N
 section .card { border-radius: 0.75rem; background: var(--bg-card); color: var(--text); border: 1px solid var(--border); }
 section .card .card-title { font-weight: 700; }
 
-/* Override light backgrounds for dark theme sections */
-.bg-light { background-color: #0f141a !important; }
+/* Semantic class for dark-themed sections (replaces Bootstrap's .bg-light which is overridden intentionally) */
+.section-dark { background-color: #0f141a !important; }
 .text-muted { color: var(--muted) !important; }
 
 /* Navbar tweaks */
