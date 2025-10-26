@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+		<title>Resume — Chidnupong Mahasuwan</title>
+		<!-- Bootstrap CSS (local first) -->
+		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<!-- Fallback CDN CSS (kept for now; remove if you use local only) -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-smooth-scroll="true" tabindex="0">
+
+		<!-- Blog header + nav scroller (similar to Bootstrap Blog example) placed under navbar -->
+		<div class="container my-3">
+			<header class="border-bottom pb-3 mb-3 text-center">
+				<a class="blog-header-logo text-decoration-none" href="#home">
+					<span class="h1 magazine-title text-light">Chidnupong</span>
+				</a>
+			</header>
+			<!-- Section Navbar (collapsible like hamburger) -->
+			<nav id="mainNav" class="navbar navbar-expand-lg navbar-dark navbar-glass fixed-top shadow-sm" aria-label="Section navigation">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navSections" aria-controls="navSections" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navSections">
+						<ul class="navbar-nav nav-underline w-100 justify-content-between small">
+							<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+							<li class="nav-item"><a class="nav-link" href="#experience">Employment</a></li>
+							<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+							<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+							<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<!-- Header / Hero -->
+		<header id="home" class="hero mag-hero py-5">
+			<div class="container">
+				<div class="row align-items-center g-4">
+					<div class="col-12 col-md-3 text-center order-md-2">
+						<img class="profile-img shadow" src="ME.jpg" alt="Profile" />
+					</div>
+					<div class="col-12 col-md-9 order-md-1">
+						<div class="kicker text-uppercase text-muted mb-2">Resume</div>
+						<h1 class="display-5 fw-bold mb-1 magazine-title">Chidnupong Mahasuwan</h1>
+						<p class="byline mb-2">Data • Web • Automation</p>
+						<p class="mb-1"><em>Major: Digital Information and Technology</em></p>
+						<p class="mb-1">Faculty of Engineering and Technology</p>
+						<p class="mb-2">
+							Panyapiwat Institute of Management (PIM) —
+							<a href="http://pim.ac.th" target="_blank" rel="noopener">pim.ac.th</a>
+						</p>
+						<p class="lead lead-muted mb-3">
+							Second‑year student interested in data, web development, and automation. Skilled in Python,
+							SQL, Java (OOP), HTML/CSS, and data visualization. Detail‑oriented and eager to learn to
+							deliver business value.
+						</p>
+						<div class="d-flex flex-wrap gap-2">
+							<span class="badge text-bg-primary">Python</span>
+							<span class="badge text-bg-secondary">SQL</span>
+							<span class="badge text-bg-success">HTML</span>
+							<span class="badge text-bg-danger">CSS</span>
+							<span class="badge text-bg-warning text-dark">Git/GitHub</span>
+							<span class="badge text-bg-info text-dark">Data Viz</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- About -->
+		<section id="about">
+			<div class="container">
+				<h2 class="section-title mb-3">About Me</h2>
+				<div class="card border-0 shadow-sm p-4 mb-2">
+				<p>
+					I’m passionate about using data to build practical solutions. I’ve worked on
+					automation and data‑driven marketing projects and enjoy extending systems with
+					modern tools. Fast learner, clear communicator, and a reliable team player who can
+					handle deadlines and pressure.
+				</p>
+				<hr class="my-4" />
+				<div class="p-3 bg-light rounded-3 border">
+					<strong class="d-block mb-2">Quick Facts</strong>
+					<ul class="mb-0">
+						<li>Interests: Data, Automation, Web</li>
+						<li>Strengths: Python, SQL, Pandas, Matplotlib</li>
+						<li>Tools: VS Code, GitHub, Google Colab</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Education -->
+		<section id="education" class="bg-light">
+			<div class="container">
+				<h2 class="section-title mb-3">Education</h2>
+				<div class="row g-4">
+					<div class="col-12">
+						<div class="card border-0 shadow-sm">
+							<div class="card-body p-4">
+								<h5 class="card-title mb-1">Panyapiwat Institute of Management (PIM)</h5>
+								<div class="text-muted mb-2">Faculty of Engineering and Technology • Major: Digital Information and Technology</div>
+								<p class="mb-1">GPAX: 4.00</p>
+								<p class="mb-0">Related activities: Data projects, Kaggle learning, volunteer activities</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Experience -->
+		<section id="experience">
+			<div class="container">
+				<h2 class="section-title mb-3">Employment History</h2>
+				<div class="row g-4">
+					<div class="col-12">
+						<div class="card border-0 shadow-sm mb-3">
+							<div class="card-body p-4">
+								<h5 class="card-title mb-1">7‑Eleven, Tiwanon‑Pak Kret Branch</h5>
+								<div class="text-muted mb-2">Mar 2025 – May 2025</div>
+								<ul class="mb-0">
+									<li>Enhanced customer service and communication skills</li>
+									<li>Managed multiple responsibilities effectively, including coordination and task organization</li>
+									<li>Learned to work efficiently under pressure and maintain flexibility</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="card border-0 shadow-sm">
+							<div class="card-body p-4">
+								<h5 class="card-title mb-1">Freelance / Event Support</h5>
+								<div class="text-muted mb-2">2024 – Present</div>
+								<ul class="mb-0">
+									<li>Built strong interpersonal and communication skills through live‑stream hosting and event support</li>
+									<li>Demonstrated adaptability and problem‑solving in fast‑paced environments</li>
+									<li>Collaborated effectively with diverse teams</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills -->
+		<section id="skills" class="bg-light">
+			<div class="container">
+				<h2 class="section-title mb-3">Skills</h2>
+				<div class="card border-0 shadow-sm p-4">
+				<div class="row g-3">
+					<div class="col-md-6">
+						<h6 class="text-uppercase text-muted">Programming</h6>
+						<div class="d-flex flex-wrap gap-2 mb-3">
+							<span class="badge text-bg-primary badge-skill">Python</span>
+							<span class="badge text-bg-secondary badge-skill">Java (OOP)</span>
+							<span class="badge text-bg-success badge-skill">SQL</span>
+							<span class="badge text-bg-info text-dark badge-skill">HTML</span>
+							<span class="badge text-bg-danger badge-skill">CSS</span>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h6 class="text-uppercase text-muted">Data & Tools</h6>
+						<div class="d-flex flex-wrap gap-2 mb-3">
+							<span class="badge text-bg-warning text-dark badge-skill">Pandas</span>
+							<span class="badge text-bg-warning text-dark badge-skill">Matplotlib</span>
+							<span class="badge text-bg-secondary badge-skill">Excel / Google Sheets</span>
+							<span class="badge text-bg-dark badge-skill">Git / GitHub</span>
+							<span class="badge text-bg-success badge-skill">MySQL</span>
+							<span class="badge text-bg-primary badge-skill">VS Code</span>
+							<span class="badge text-bg-info text-dark badge-skill">Google Colab</span>
+							<span class="badge text-bg-warning text-dark badge-skill">n8n (automation)</span>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects / Other -->
+		<section id="projects">
+			<div class="container">
+				<h2 class="section-title mb-3">Projects</h2>
+				<div class="row g-4">
+					<div class="col-12">
+						<div class="card border-0 shadow-sm">
+							<div class="card-body p-4">
+								<h5 class="card-title mb-1">Netflix Content Analysis & Clustering</h5>
+								<p class="text-muted mb-2">involved a comprehensive analysis of the Netflix content library to uncover strategic insights.</p>
+								<ul class="mb-2">
+									<li>Performed end-to-end analysis on the Netflix content dataset (8,800+ titles) using Python, Pandas, and Seaborn to identify key business insights.</li>
+									<li>Developed and interpreted a K-Means clustering model with Scikit-learn to segment the content library, successfully identifying 8 distinct, business-meaningful content clusters</li>
+									<li>Created visualizations (bar/line charts) with Matplotlib and Seaborn to communicate findings clearly.</li>
+								</ul>
+								<a class="small" href="https://github.com/LervaiZ/Netflix_Analysis" target="_blank" rel="noopener">github.com/LervaiZ/Netflix_Analysis</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="bg-light">
+			<div class="container">
+				<h2 class="section-title mb-3">Contact</h2>
+				<div class="row">
+					<div class="col-12 col-lg-8">
+						<div class="card border-0 shadow-sm p-4">
+						<ol class="mb-0">
+							<li class="mb-2">
+								Institute Email: 
+								<span class="user-select-none">
+									<span>6752100063</span>
+									<svg class="at-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+										<text x="1" y="13" font-size="14" font-family="Arial" fill="currentColor">@</text>
+									</svg>
+									<span>stu.pim.ac.th</span>
+								</span>
+							</li>
+							<li class="mb-2">Phone: 080-000-0000</li>
+							<li class="mb-2">Address: Pak Kret, Nonthaburi, Thailand</li>
+							<li class="mb-2">GitHub: <a href="https://github.com/LervaiZ" target="_blank" rel="noopener">github.com/LervaiZ</a></li>
+						</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="py-4 text-center text-muted small">
+			<div class="container">© <span id="y"></span> Chidnupong Mahasuwan — Single‑page resume</div>
+		</footer>
+
+		<!-- Bootstrap JS (local with CDN fallback) -->
+		<script src="assets/bootstrap/js/bootstrap.bundle.min.js" onerror="(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js';s.integrity='sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz';s.crossOrigin='anonymous';document.head.appendChild(s);})();"></script>
+		<!-- App script -->
+		<script src="assets/js/app.js"></script>
+	</body>
+	</html>
+
